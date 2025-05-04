@@ -1,0 +1,30 @@
+.title {
+    font-size: 2rem;
+    margin-bottom: 16px;
+}
+
+.filters {
+    display: flex;
+    gap: 8px;
+    margin-bottom: 24px;
+}
+
+.bookList {
+    list-style: none;
+}
+
+.bookItem {
+    padding: 12px 0;
+    border-bottom: 1px solid #eee;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.actions button {
+    margin-left: 8px;
+    background: none;
+    border: none;
+    color: #007acc;
+    cursor: pointer;
+}
