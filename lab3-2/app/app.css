@@ -1,0 +1,96 @@
+/* Reset i podstawowe style */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  font-family: Arial, sans-serif;
+  background: #fafafa;
+  color: #222;
+  line-height: 1.4;
+}
+
+/* Kontener z marginesami */
+.container {
+  max-width: 800px;
+  margin: 40px auto;
+  padding: 0 16px;
+}
+
+/* Nagłówek */
+h1 {
+  font-size: 2rem;
+  margin-bottom: 24px;
+  text-align: center;
+}
+
+/* Pasek wyszukiwania */
+.search-bar {
+  display: flex;
+  gap: 8px;
+  margin-bottom: 24px;
+}
+
+.search-bar input,
+.search-bar select {
+  flex: 1;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.search-bar button,
+.search-bar a {
+  padding: 8px 12px;
+  border-radius: 4px;
+  border: 1px solid #007acc;
+  background: #007acc;
+  color: #fff;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.search-bar button:hover,
+.search-bar a:hover {
+  background: #005fa3;
+  border-color: #005fa3;
+}
+
+/* Lista książek */
+.book-list {
+  list-style: none;
+}
+
+.book-item {
+  display: flex;
+  justify-content: space-between;
+  padding: 12px;
+  border-bottom: 1px solid #e0e0e0;
+}
+
+.book-item .info {
+  flex: 1;
+}
+
+.book-item .actions {
+  display: flex;
+  gap: 8px;
+}
+
+.book-item .actions button,
+.book-item .actions a {
+  background: none;
+  border: none;
+  color: #007acc;
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+.book-item .actions button:hover,
+.book-item .actions a:hover {
+  color: #005fa3;
+}

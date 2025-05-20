@@ -1,0 +1,28 @@
+{
+  "name": "lab3",
+  "private": true,
+  "scripts": {
+    "build": "react-router build",
+    "dev": "react-router dev",
+    "start": "react-router-serve ./build/server/index.js"
+  },
+  "dependencies": {
+    "@react-router/node": "^7.5.3",
+    "@react-router/serve": "^7.5.3",
+    "firebase": "^11.6.1",
+    "isbot": "^5.1.27",
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+    "react-router": "^7.5.3",
+    "react-router-dom": "^7.5.3"
+  },
+  "devDependencies": {
+    "@react-router/dev": "^7.5.3",
+    "@tailwindcss/postcss": "^4.1.7",
+    "autoprefixer": "^10.4.21",
+    "cypress": "^14.3.3",
+    "postcss": "^8.5.3",
+    "tailwindcss": "^4.1.7",
+    "vite": "^6.3.3"
+  }
+}
